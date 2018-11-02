@@ -1,0 +1,15 @@
+C:\Users\Bad\Desktop\C# esercizi\EAN_13\EAN_13\obj\Debug\EAN_13.csprojAssemblyReference.cache
+C:\Users\Bad\Desktop\C# esercizi\EAN_13\EAN_13\obj\Debug\MainWindow.g.cs
+C:\Users\Bad\Desktop\C# esercizi\EAN_13\EAN_13\obj\Debug\App.g.cs
+C:\Users\Bad\Desktop\C# esercizi\EAN_13\EAN_13\obj\Debug\EAN_13_MarkupCompile.cache
+C:\Users\Bad\Desktop\C# esercizi\EAN_13\EAN_13\obj\Debug\EAN_13_MarkupCompile.lref
+C:\Users\Bad\Desktop\C# esercizi\EAN_13\EAN_13\bin\Debug\EAN_13.exe.config
+C:\Users\Bad\Desktop\C# esercizi\EAN_13\EAN_13\bin\Debug\EAN_13.exe
+C:\Users\Bad\Desktop\C# esercizi\EAN_13\EAN_13\bin\Debug\EAN_13.pdb
+C:\Users\Bad\Desktop\C# esercizi\EAN_13\EAN_13\obj\Debug\MainWindow.baml
+C:\Users\Bad\Desktop\C# esercizi\EAN_13\EAN_13\obj\Debug\EAN_13.g.resources
+C:\Users\Bad\Desktop\C# esercizi\EAN_13\EAN_13\obj\Debug\EAN_13.Properties.Resources.resources
+C:\Users\Bad\Desktop\C# esercizi\EAN_13\EAN_13\obj\Debug\EAN_13.csproj.GenerateResource.cache
+C:\Users\Bad\Desktop\C# esercizi\EAN_13\EAN_13\obj\Debug\EAN_13.csproj.CoreCompileInputs.cache
+C:\Users\Bad\Desktop\C# esercizi\EAN_13\EAN_13\obj\Debug\EAN_13.exe
+C:\Users\Bad\Desktop\C# esercizi\EAN_13\EAN_13\obj\Debug\EAN_13.pdb

@@ -1,0 +1,22 @@
+﻿<Window x:Class="EAN_13.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EAN_13"
+        mc:Ignorable="d"
+        Title="Barcode Gen EAN-13" Height="450" Width="800" BorderBrush="Black" Foreground="Black" Background="White" WindowStartupLocation="Manual" ResizeMode="CanMinimize">
+    <Grid>
+        <Button x:Name="Start_Button" Content="Genera" HorizontalAlignment="Left" Margin="558,10,0,0" VerticalAlignment="Top" Width="124" Height="42" FontSize="20" Click="Start_Button_Click" Foreground="Black"/>
+        <TextBox x:Name="boxCodiceIniziale" HorizontalAlignment="Left" Height="34" Margin="191,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189" MaxLength="12" FontSize="20" />
+        <TextBox x:Name="boxLimite" HorizontalAlignment="Left" Height="36" Margin="191,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189" FontSize="20" MaxLength="5" />
+        <ListBox x:Name="Lista" HorizontalAlignment="Left" Height="211" Margin="86,117,0,0" VerticalAlignment="Top" Width="610" SelectionChanged="Lista_SelectionChanged" FontSize="20"/>
+        <Label Name="lblCodice" Content="Codice Iniziale: *" HorizontalAlignment="Left" Margin="32,15,0,0" VerticalAlignment="Top" Width="154" Height="36" FontSize="20"/>
+        <Label Name="lblLimite" Content="Limite: *" HorizontalAlignment="Left" Margin="100,61,0,0" VerticalAlignment="Top" Width="86" FontSize="20" Height="40"/>
+        <Button x:Name="Salva_Button" Content="Salva su File" HorizontalAlignment="Left" Margin="401,66,0,0" VerticalAlignment="Top" Width="139" Height="42" FontSize="20" Click="Salva_Button_Click"/>
+        <Button x:Name="Pulisci_Button" Content="Pulisci" HorizontalAlignment="Left" Margin="401,10,0,0" VerticalAlignment="Top" Width="139" Height="44" FontSize="20" Click="Pulisci_Button_Click"/>
+        <ProgressBar x:Name="Barra" HorizontalAlignment="Left" Height="46" Margin="86,346,0,0" VerticalAlignment="Top" Width="610"/>
+        <Button x:Name="Ferma" Content="Ferma salvataggio" HorizontalAlignment="Left" Margin="558,66,0,0" VerticalAlignment="Top" Width="124" Height="42" FontSize="14" IsEnabled="False" Click="Ferma_Button_Click"/>
+        <TextBlock x:Name="percentuale" Margin="360,346,362,29" FontSize="20" TextAlignment="Center" Text="0%" />
+    </Grid>
+</Window>
